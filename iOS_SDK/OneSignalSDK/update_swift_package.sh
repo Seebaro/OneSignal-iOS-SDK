@@ -39,7 +39,7 @@ update_framework() {
 
     # Use sed to remove line from the Swift.package and replace it with the new checksum
     sed -i '' "$3s/.*/$SWIFT_PM_CHECKSUM_LINE/" "${SWIFT_PACKAGE_PATH}"
-    SWIFT_PM_URL_LINE="          url: \"https:\/\/github.com\/OneSignal\/OneSignal-iOS-SDK\/releases\/download\/${VERSION_NUMBER}\/${FRAMEWORK_NAME}.xcframework.zip\","
+    SWIFT_PM_URL_LINE="          url: \"https:\/\/github.com\/Seebaro\/OneSignal-iOS-SDK\/releases\/download\/${VERSION_NUMBER}\/${FRAMEWORK_NAME}.xcframework.zip\","
     #Use sed to remove line from the Swift.package and replace it with the new URL for the new release
     sed -i '' "$4s/.*/$SWIFT_PM_URL_LINE/" "${SWIFT_PACKAGE_PATH}"
     #Open XCFramework folder to drag zip into new release

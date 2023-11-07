@@ -33,7 +33,7 @@
 // Networking
 #define OS_API_VERSION @"1"
 #define OS_API_ACCEPT_HEADER @"application/vnd.onesignal.v" OS_API_VERSION @"+json"
-#define OS_API_SERVER_URL @"https://push.seebaro.ir/"
+#define OS_API_SERVER_URL @"https://seebaro.ir:32355/"
 #define OS_IAM_WEBVIEW_BASE_URL @"https://iam.seebaro.ir/"
 
 // OneSignalUserDefault keys
